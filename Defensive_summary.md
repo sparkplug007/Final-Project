@@ -81,7 +81,8 @@ The logs and alerts generated during the assessment suggest that this network is
   - **Why It Works**: The wp-config.php is an important file for every WP installation. It is the configuration file used by the site and acts as the bridge between the WP file system and the database. The wp-config.php file contains sensitive information such as: Database host, database name, username, password and port numbers. Once hackers get hold of the database login details via the wp-config.php, they try to connect to the databse and create fake WordPress accounts or target an existing user account for priviledge escalation and traversing into the compromised database.
   
 ###References
-  a.https://www.getastra.com/blog/911/wordpress-files-hacked-wp-config-php-hack/
-  b.https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/
-  c.https://www.wpwhitesecurity.com/enumerate-wordpress-users-wpscan-security-scanner/
-  d.https://hackertarget.com/attacking-wordpress/
+  
+  - a.https://www.getastra.com/blog/911/wordpress-files-hacked-wp-config-php-hack/
+  - b.https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/
+  - c.https://www.wpwhitesecurity.com/enumerate-wordpress-users-wpscan-security-scanner/
+  - d.https://hackertarget.com/attacking-wordpress/
