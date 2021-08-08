@@ -11,7 +11,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 ```bash
 $ nmap -A 192.168.1.0/24
-
+```
 ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/nmap%20scan.png)
 
 This scan identifies the services below as potential points of entry:
@@ -22,7 +22,6 @@ This scan identifies the services below as potential points of entry:
   - port 139/tcp  open   netbios-ssn
   - port 445/tcp  open   microsoft-ds
 
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
 
 The following vulnerabilities was identified on target machine:
 - Target 1
@@ -37,7 +36,6 @@ The following vulnerabilities was identified on target machine:
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
@@ -46,7 +44,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - _Enumeration attack on users using WPscan on target machine 
   ```bash
   $ wpscan --url http://192.168.1.110/wordpress --enumerate u  
-  
+
+![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/WPscan1.png)
 Being able to identify users, the next step is to be able to identify the "password". The most obvious one it to guess the password or conduct a hydra brute force attack.
 By guessing the password for user [michael] with password="michael" I was able to connect to the target machine by using open port 22 through ssh protocol.
 Traversing through the folders `$ cd /var/www/html` found file _service.html
