@@ -12,9 +12,9 @@ _TODO: Fill out the information below._
 
 The following machines were identified on the network:
 - Kali machine
-  - ** OS         :** Linux 2.6.32
-  - ** Purpose    :** Attack machine
-  - ** IP Address :** 192.168.1.90
+  - **OS         **: Linux 2.6.32
+  - **Purpose    **: Attack machine
+  - **IP Address **: 192.168.1.90
 - ELK
   - ** OS         : Linux/Ubuntu 18.04**:
   - ** Purpose    : ELK stack**:
