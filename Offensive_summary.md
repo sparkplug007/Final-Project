@@ -49,13 +49,16 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 Being able to identify users, the next step is to be able to identify the "password". The most obvious one it to guess the password or conduct a hydra brute force attack.
 By guessing the password for user [michael] with password="michael" I was able to connect to the target machine by using open port 22 through ssh protocol.
 Traversing through the folders `$ cd /var/www/html` found file _service.html
-         
+
+![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/WPscan2.png)
+
   - `flag2.txt`: _`fc3fd58dcdad9ab23faca6e9a36e581c` 
     - **Exploit Used**
       - _Enumeration attack on users using WPscan ( same as above)
       - _After having control over the user "michael's" account I was able to find:
 ```bash
   $ find / -name flag*.txt
+  
 _insert png
       - _Identify a folder that has "flag2.txt" on it
 ```bash
