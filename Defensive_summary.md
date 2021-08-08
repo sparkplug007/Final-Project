@@ -52,26 +52,25 @@ HTTP Request Size Monitor was implemented as follows:
 
 #### Excessive HTTP errors
 Excessive HTTP errors is implemented as follows:
-  - **Metric**: WheN count () GROUPED OVER top 5 'http.response.status_code' 
+  - **Metric**: WheN count () GROUPED OVER top 5 `http.response.status_code` 
   - **Threshold**: IS ABOVE 400 FOR THE LAST 5 mins
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
 #### CPU Usage Monitor
 CPU Usage Monitor is implemented as follows:
-  - **Metric**: WHEN max () OF 'system.process.cpu.total.pct' OVER all documents
+  - **Metric**: WHEN max () OF `system.process.cpu.total.pct` OVER all documents
   - **Threshold**: IS ABOVE 0.5 FOR THE LAST 5 minutes
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
-### Suggestions for Going Further (Optional)
-_TODO_: 
-- Each alert above pertains to a specific vulnerability/exploit. Recall that alerts only detect malicious behavior, but do not stop it. For each vulnerability/exploit identified by the alerts above, suggest a patch. E.g., implementing a blocklist is an effective tactic against brute-force attacks. It is not necessary to explain _how_ to implement each patch.
+### Suggestions for Going Further (Optional) 
+- Each alert above pertains to a specific vulnerability/exploit. Recall that alerts only detect malicious behavior, but do not stop it. For each vulnerability/exploit identified by the alerts above, suggest a patch. E.g., implementing a blocklist is an effective tactic against brute-force attacks.
 
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
-- Vulnerability 1
+- Vulnerability 1 : Weak configuration of password
   - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
   - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
 - Vulnerability 2
