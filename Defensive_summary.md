@@ -49,6 +49,7 @@ HTTP Request Size Monitor was implemented as follows:
   - **Threshold**: IS ABOVE 3500 FOR THE LAST 1 minute
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  ![alt-txt]
 
 #### Excessive HTTP errors
 Excessive HTTP errors is implemented as follows:
@@ -56,6 +57,7 @@ Excessive HTTP errors is implemented as follows:
   - **Threshold**: IS ABOVE 400 FOR THE LAST 5 mins
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  ![alt-txt]
 
 #### CPU Usage Monitor
 CPU Usage Monitor is implemented as follows:
@@ -63,6 +65,7 @@ CPU Usage Monitor is implemented as follows:
   - **Threshold**: IS ABOVE 0.5 FOR THE LAST 5 minutes
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  ![alt-txt]
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
