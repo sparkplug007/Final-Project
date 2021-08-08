@@ -49,6 +49,7 @@ HTTP Request Size Monitor was implemented as follows:
   - **Threshold**: IS ABOVE 3500 FOR THE LAST 1 minute
   - **Vulnerability Mitigated**: Measure the volume of traffic that might indicate an attack
   - **Reliability**: Highly reliable when CPU resources is compromised and slowing responses within local machines.
+
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/HTTP%20request%20size%20monitor1.png)
   
 #### Excessive HTTP errors
@@ -57,6 +58,7 @@ Excessive HTTP errors is implemented as follows:
   - **Threshold**: IS ABOVE 400 FOR THE LAST 5 mins
   - **Vulnerability Mitigated**: Brute Force Attack, resources usage issues
   - **Reliability**: High reliability. Aletrs would trigger for excessive failed logins or bad request if server have advanced security setup.
+
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/Excessive%20HTTP%20errors1.png)
 
 #### CPU Usage Monitor
@@ -68,7 +70,6 @@ CPU Usage Monitor is implemented as follows:
 
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/CPU%20Usage%20Monitor1.png)
  
-_TODO Note: Explain at least 3 alerts. Add more if time allows._
 
 ### Suggestions for Going Further (Optional) 
 - Each alert above pertains to a specific vulnerability/exploit. Recall that alerts only detect malicious behavior, but do not stop it. For each vulnerability/exploit identified by the alerts above, suggest a patch. E.g., implementing a blocklist is an effective tactic against brute-force attacks.
