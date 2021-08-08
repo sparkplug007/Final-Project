@@ -10,7 +10,7 @@
 Nmap scan results for each machine reveal the below services and OS details:
 
 ```bash
-`$ nmap -A 192.168.1.0/24`
+$ nmap -A 192.168.1.0/24
 ```
 ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/nmap%20scan.png)
 
@@ -55,14 +55,15 @@ Traversing through the folders `$ cd /var/www/html` found file _service.html
       - Enumeration attack on users using WPscan ( same as above)
       - After having control over the user "michael's" account I was able to find:
 ```bash
-  `$ find / -name flag*.txt`
+  $ find / -name flag*.txt
 ```
   
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/flag2.png)
-        - Identify a folder that has "flag2.txt" on it
+  
+  - Identify a folder that has "flag2.txt" on it
         
 ```bash
-  `$ cd /var/html`
+  $ cd /var/html
 ```
   
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/flag2_2.png)
