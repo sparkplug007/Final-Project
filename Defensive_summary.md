@@ -16,13 +16,13 @@ The following machines were identified on the network:
   - **Purpose**    : Attack machine
   - **IP Address** : 192.168.1.90
 - ELK
-  - ** OS         : Linux/Ubuntu 18.04**:
-  - ** Purpose    : ELK stack**:
-  - ** IP Address : 192.168.1.105**:
+  - **OS**         : Linux/Ubuntu 18.04
+  - **Purpose**    : ELK stack
+  - **IP Address** : 192.168.1.105
 - Capstone
-  - ** OS         : Linux/Ubuntu 2.4.29**:
-  - ** Purpose    : Apache server**:
-  - ** Ip Address : 192.168.1.105**:
+  - **OS**         : Linux/Ubuntu 2.4.29**:
+  - **Purpose**    : Apache server**:
+  - **IP Address:** 192.168.1.105**:
 - Target 1 machine
   - ** OS         : Linux/Debian 3.2-4.9**:
   - ** Purpose    : Apache server/ Vulnerable WordPress server**:
