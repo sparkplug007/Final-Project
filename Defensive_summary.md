@@ -24,13 +24,13 @@ The following machines were identified on the network:
   - **Purpose:**    Apache server
   - **IP Address:** 192.168.1.105
 - Target 1 machine
-  - ** OS         : Linux/Debian 3.2-4.9**:
-  - ** Purpose    : Apache server/ Vulnerable WordPress server**:
-  - ** IP Address : 192.168.1.110**:
+  - **OS:**         Linux/Debian 3.2-4.9
+  - **Purpose:**    Apache server/ Vulnerable WordPress server
+  - **IP Address:** 192.168.1.110
 - Target 2 machine
-  - ** OS         : Linux 3.2**
-  - ** Purpose    : Web server**
-  - ** IP Address : 192.168.1.115**
+  - **OS:**         Linux 3.2
+  - **Purpose:**    Web server
+  - **IP Address:** 192.168.1.115
   
 
 ### Description of Targets
