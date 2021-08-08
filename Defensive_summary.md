@@ -47,8 +47,8 @@ Traffic to these services should be carefully monitored. To this end, we have im
 HTTP Request Size Monitor was implemented as follows:
   - **Metric**: WHEN sum () of `http.request.bytes` OVER all documents
   - **Threshold**: IS ABOVE 3500 FOR THE LAST 1 minute
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Vulnerability Mitigated**: measure the volume of traffic that might indicate an attack
+  - **Reliability**: Highly reliable when 
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/HTTP%20request%20size%20monitor1.png)
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/HTTP%20request%20size%20monitor2.png)
 
