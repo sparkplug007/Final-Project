@@ -49,7 +49,8 @@ HTTP Request Size Monitor was implemented as follows:
   - **Threshold**: IS ABOVE 3500 FOR THE LAST 1 minute
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
-  ![alt-txt]
+  ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/HTTP%20request%20size%20monitor1.png)
+  ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/HTTP%20request%20size%20monitor2.png)
 
 #### Excessive HTTP errors
 Excessive HTTP errors is implemented as follows:
@@ -57,7 +58,8 @@ Excessive HTTP errors is implemented as follows:
   - **Threshold**: IS ABOVE 400 FOR THE LAST 5 mins
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
-  ![alt-txt]
+  ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/Excessive%20HTTP%20errors1.png)
+  ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/Excessive%20HTTP%20errors2.png)
 
 #### CPU Usage Monitor
 CPU Usage Monitor is implemented as follows:
