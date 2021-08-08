@@ -71,10 +71,10 @@ _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 - Vulnerability 1 : Weak configuration of password leading to SSH protocol exploit
-  - **Patch**: Modify default ports to custom port. Monitor unauthorized access tot his port. Allow ONLY specific known Clients to connect.
+  - **Patch**: Modify default ports to custom port. Monitor unauthorized access to this port. Allow ONLY specific known Clients to connect.
   - **Why It Works**: By default, SSH is set to be listening on port 22. Changing the default port 22 to a different port will enhance additional layer of security in your network.
 - Vulnerability 2 : Enumeration attack - WordPress server
-  - **Patch**: Disable the WordPress REST API, Disable WordPress XML-RPC if you are not using it, Configure your web server to block requests to /?author=<number> and Don’t expose /wp-admin and /wp-login.php directly to the public Internet
+  - **Patch**: Disable the WordPress REST API, Disable WordPress XML-RPC if you are not using it, Configure your web server to block requests to /?author=<number>, and don’t expose /wp-admin and /wp-login.php directly to the public Internet
   - **Why It Works**: WordPress user enumeration works on every WordPress site by default because of a WordPress feature called permalinks. Permalinks are permanent URLs to individual WordPress posts and pages.In addition to post and pages, it allows to list all posts by a particular author's username.
 - Vulnerability 3 : Weak WordPress /wp-config.php security implementation
   - **Patch**: Back-up regularly WordPress server, enhance security by updating CMS, Plugins & Themes to the latest Versions, update *.php to the latest version, remove defunct plugins/themes.
