@@ -47,8 +47,8 @@ Traffic to these services should be carefully monitored. To this end, we have im
 HTTP Request Size Monitor was implemented as follows:
   - **Metric**: WHEN sum () of `http.request.bytes` OVER all documents
   - **Threshold**: IS ABOVE 3500 FOR THE LAST 1 minute
-  - **Vulnerability Mitigated**: measure the volume of traffic that might indicate an attack
-  - **Reliability**: Highly reliable when 
+  - **Vulnerability Mitigated**: Measure the volume of traffic that might indicate an attack
+  - **Reliability**: Highly reliable when CPU resources is compromised and slowing responses within local machines.
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/HTTP%20request%20size%20monitor1.png)
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/HTTP%20request%20size%20monitor2.png)
 
@@ -56,8 +56,8 @@ HTTP Request Size Monitor was implemented as follows:
 Excessive HTTP errors is implemented as follows:
   - **Metric**: WHEN count () GROUPED OVER top 5 `http.response.status_code` 
   - **Threshold**: IS ABOVE 400 FOR THE LAST 5 mins
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Vulnerability Mitigated**: Brute Force Attack, resources usage issues
+  - **Reliability**: High reliability. Aletrs would trigger for excessive failed logins or bad request if server have advanced security setup.
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/Excessive%20HTTP%20errors1.png)
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/Excessive%20HTTP%20errors2.png)
 
@@ -65,8 +65,9 @@ Excessive HTTP errors is implemented as follows:
 CPU Usage Monitor is implemented as follows:
   - **Metric**: WHEN max () OF `system.process.cpu.total.pct` OVER all documents
   - **Threshold**: IS ABOVE 0.5 FOR THE LAST 5 minutes
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Vulnerability Mitigated**: Resources management, excessive CPU usage
+  - **Reliability**: Medium. It depends on the application that is running that might generate a false positives.
+
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/CPU%20Usage%20Monitor1.png)
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/CPU%20Usage%20Monitor2.png)
 
