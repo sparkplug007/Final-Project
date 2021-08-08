@@ -39,9 +39,9 @@ _TODO: Include vulnerability scan results to prove the identified vulnerabilitie
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
+  - `flag1.txt`: `b9bbcb33e11b80be759c4e844862482d`
     - **Exploit Used**
-      - _Enumeration attack on users using WPscan on target machine 
+      - Enumeration attack on users using WPscan on target machine 
   ```bash
   $ wpscan --url http://192.168.1.110/wordpress --enumerate u  
 
@@ -52,16 +52,15 @@ Traversing through the folders `$ cd /var/www/html` found file _service.html
 
 ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/WPscan2.png)
 
-  - `flag2.txt`: _`fc3fd58dcdad9ab23faca6e9a36e581c` 
+  - `flag2.txt`: `fc3fd58dcdad9ab23faca6e9a36e581c` 
     - **Exploit Used**
-      - _Enumeration attack on users using WPscan ( same as above)
-      - _After having control over the user "michael's" account I was able to find:
+      - Enumeration attack on users using WPscan ( same as above)
+      - After having control over the user "michael's" account I was able to find:
 ```bash
   $ find / -name flag*.txt
-  
-_insert png
-      - _Identify a folder that has "flag2.txt" on it
+  ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/flag2.png)
+        - Identify a folder that has "flag2.txt" on it
 ```bash
   $ cd /var/html
-_insert png
+  ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/flag2_2.png)
 
