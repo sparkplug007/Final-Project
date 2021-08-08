@@ -65,7 +65,7 @@ CPU Usage Monitor is implemented as follows:
   - **Threshold**: IS ABOVE 0.5 FOR THE LAST 5 minutes
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
-  ![alt-txt]
+  ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/CPU%20Usage%20Monitor1.png)
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
