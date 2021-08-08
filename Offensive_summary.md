@@ -43,9 +43,10 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 - Target 1
   - `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
     - **Exploit Used**
-  - Enumeration attack on users using WPscan on target machine
+      **Enumeration attack on users using WPscan on target machine**
   ```bash
   $ wpscan --url http://192.168.1.110/wordpress --enumerate u  
+  
   - Being able to identify users, the next step is to be able to identify the "password". The most obvious one it to guess the password or conduct a hydra brute force attack
   - By guessing the password for user -michael as password="michael" I was able to connect to the target machine by using open port 22 through ssh protocol
   -Traversing through the folders `$ cd /var/www/html` found file _service.html
