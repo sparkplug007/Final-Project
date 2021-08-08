@@ -58,9 +58,11 @@ Traversing through the folders `$ cd /var/www/html` found file _service.html
       - After having control over the user "michael's" account I was able to find:
 ```bash
   $ find / -name flag*.txt
+  
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/flag2.png)
         - Identify a folder that has "flag2.txt" on it
 ```bash
   $ cd /var/html
+  
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/flag2_2.png)
 
