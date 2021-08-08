@@ -66,6 +66,7 @@ CPU Usage Monitor is implemented as follows:
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/CPU%20Usage%20Monitor1.png)
+  ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/CPU%20Usage%20Monitor2.png)
 
 _TODO Note: Explain at least 3 alerts. Add more if time allows._
 
