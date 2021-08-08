@@ -76,6 +76,6 @@ The logs and alerts generated during the assessment suggest that this network is
 - Vulnerability 2 : Enumeration attack - WordPress server
   - **Patch**: Disable the WordPress REST API, Disable WordPress XML-RPC if you are not using it, Configure your web server to block requests to /?author=<number> and Don’t expose /wp-admin and /wp-login.php directly to the public Internet
   - **Why It Works**: WordPress user enumeration works on every WordPress site by default because of a WordPress feature called permalinks. Permalinks are permanent URLs to individual WordPress posts and pages.In addition to post and pages, it allows to list all posts by a particular author's username.
-- Vulnerability 3 : Weak wp-config.php security implementation
-  - **Patch**: TODO: E.g., _
-  - **Why It Works**: 
+- Vulnerability 3 : Weak WordPress /wp-config.php security implementation
+  - **Patch**: Back-up regularly WordPress server, enhance security by updating CMS, Plugins & Themes to the latest Versions, update *.php to the latest version, remove defunct plugins/themes.
+  - **Why It Works**: The wp-config.php is an important file for every WP installation. It is the configuration file used by the site and acts as the bridge between the WP file system and the database. The wp-config.php file contains sensitive information such as: Database host, database name, username, password and port numbers. Once hackers get hold of the database login details via the wp-config.php, they try to connect to the databse and create fake WordPress accounts or target an existing user account for priviledge escalation and traversing into the compromised database.
