@@ -11,8 +11,8 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 ```bash
 $ nmap -A 192.168.1.0/24
+
 ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/nmap%20scan.png)
-```
 
 This scan identifies the services below as potential points of entry:
 - Target 1 ( IP 192.168.1.110 )
