@@ -8,7 +8,7 @@
 - Suggestions for Going Further
 
 ### Network Topology
-![alt-txt](jpg)
+![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/blue_file/diagram.io.png)
 
 The following machines were identified on the network:
 - Kali machine
