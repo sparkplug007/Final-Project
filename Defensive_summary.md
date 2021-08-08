@@ -8,7 +8,7 @@
 - Suggestions for Going Further
 
 ### Network Topology
-_TODO: Fill out the information below._
+![alt-txt](jpg)
 
 The following machines were identified on the network:
 - Kali machine
