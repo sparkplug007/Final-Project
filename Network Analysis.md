@@ -6,15 +6,16 @@ Complete this report as you complete the Network Activity on Day 3 of class.
 You must inspect your traffic capture to answer the following questions:
 
 1. What is the domain name of the users' custom site?
-		`frank-n-ted.com`
+   -`frank-n-ted.com`
 2. What is the IP address of the Domain Controller (DC) of the AD network?
-        `10.6.12.157`
+   - `10.6.12.157`
 3. What is the name of the malware downloaded to the 10.6.12.203 machine?
-        `June11.dll
+   - `June11.dll`
+
    - Once you have found the file, export it to your Kali machine's desktop.
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
 5. What kind of malware is this classified as?
-         `Trojan Horse`
+   - `Trojan Horse`
 
 ---
 
