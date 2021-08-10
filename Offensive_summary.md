@@ -70,3 +70,4 @@ Traversing through the folders `$ cd /var/www/html` found file _service.html
 
  References:
  - https://www.wpwhitesecurity.com/enumerate-wordpress-users-wpscan-security-scanner/
+ - https://hackertarget.com/attacking-wordpress/
