@@ -68,3 +68,5 @@ Traversing through the folders `$ cd /var/www/html` found file _service.html
   
   ![alt-txt](https://github.com/sparkplug007/Final-Project/blob/main/images/red_file/flag2_2.png)
 
+ References:
+ - https://www.wpwhitesecurity.com/enumerate-wordpress-users-wpscan-security-scanner/
